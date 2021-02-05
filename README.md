@@ -102,7 +102,7 @@ Found 36882 validated image filenames belonging to 2 classes.
 
 Found 4099 validated image filenames belonging to 2 classes.
 
-Learning rate schedule
+#### Learning rate schedule
 ```Python
 EPOCHS = 16
 
@@ -137,7 +137,7 @@ for x_batch,y_batch in train_generator:
     plt.show()
 ```
 
-### Mobilenet performs best
+#### Mobilenet performs best
 ```Python
 base_model=MobileNet(weights='imagenet',include_top=False, input_shape=(331,331,3)) 
 base_model.summary()
