@@ -136,7 +136,7 @@ for x_batch,y_batch in train_generator:
     plt.show()
 ```
 
-### Mobilenet performs beat
+### Mobilenet performs best
 ```Python
 base_model=MobileNet(weights='imagenet',include_top=False, input_shape=(331,331,3)) 
 base_model.summary()
